@@ -1,0 +1,154 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_out_of_scope
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
+
+
+- rule: Answer Do not answer
+  steps:
+  - intent: Do not answer
+  - action: utter_Do not answer
+    
+- rule: Answer apply_vote_mail_ballot
+  steps:
+  - intent: apply_vote_mail_ballot
+  - action: utter_apply_vote_mail_ballot
+    
+- rule: Answer return_vote_mail_ballot
+  steps:
+  - intent: return_vote_mail_ballot
+  - action: utter_return_vote_mail_ballot
+    
+- rule: Answer vote_person
+  steps:
+  - intent: vote_person
+  - action: utter_vote_person
+    
+- rule: Answer register_vote
+  steps:
+  - intent: register_vote
+  - action: utter_register_vote
+    
+- rule: Answer voter_registration_deadline
+  steps:
+  - intent: voter_registration_deadline
+  - action: utter_voter_registration_deadline
+    
+- rule: Answer register_vote_inperson
+  steps:
+  - intent: register_vote_inperson
+  - action: utter_register_vote_inperson
+    
+- rule: Answer state_election_primary_polling
+  steps:
+  - intent: state_election_primary_polling
+  - action: utter_state_election_primary_polling
+    
+- rule: Answer reason_voting_provisionally
+  steps:
+  - intent: reason_voting_provisionally
+  - action: utter_reason_voting_provisionally
+    
+- rule: Answer accessible_polling_place
+  steps:
+  - intent: accessible_polling_place
+  - action: utter_accessible_polling_place
+    
+- rule: Answer accessible_voting_procedure
+  steps:
+  - intent: accessible_voting_procedure
+  - action: utter_accessible_voting_procedure
+    
+- rule: Answer apply_ballot
+  steps:
+  - intent: apply_ballot
+  - action: utter_apply_ballot
+    
+- rule: Answer state_election
+  steps:
+  - intent: state_election
+  - action: utter_state_election
+    
+- rule: Answer district_election
+  steps:
+  - intent: district_election
+  - action: utter_district_election
+    
+- rule: Answer office_ballot
+  steps:
+  - intent: office_ballot
+  - action: utter_office_ballot
+    
+- rule: Answer voter_registration_deadline1
+  steps:
+  - intent: voter_registration_deadline1
+  - action: utter_voter_registration_deadline1
+    
+- rule: Answer vote_mail_application_deadline
+  steps:
+  - intent: vote_mail_application_deadline
+  - action: utter_vote_mail_application_deadline
+    
+- rule: Answer polling_hour
+  steps:
+  - intent: polling_hour
+  - action: utter_polling_hour
+    
+- rule: Answer How_do_you_vote
+  steps:
+  - intent: How_do_you_vote
+  - action: utter_How_do_you_vote
+    
+- rule: Answer find_information_candidate_ballot
+  steps:
+  - intent: find_information_candidate_ballot
+  - action: utter_find_information_candidate_ballot
+    
+- rule: Answer registration_deadline
+  steps:
+  - intent: registration_deadline
+  - action: utter_registration_deadline
+    
+- rule: Answer verify_voter_registration_status
+  steps:
+  - intent: verify_voter_registration_status
+  - action: utter_verify_voter_registration_status
+    
+- rule: Answer id_needed_voting
+  steps:
+  - intent: id_needed_voting
+  - action: utter_id_needed_voting
+    
+- rule: Answer polling_place_locator
+  steps:
+  - intent: polling_place_locator
+  - action: utter_polling_place_locator
+    
+- rule: Answer polling_place_hour
+  steps:
+  - intent: polling_place_hour
+  - action: utter_polling_place_hour
+    

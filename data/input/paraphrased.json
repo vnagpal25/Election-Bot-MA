@@ -1,0 +1,783 @@
+{
+    "What is Voting by Mail?": [
+        "What's Voting by Mail?",
+        "What is a Voting by Mail?",
+        "What is voting by mail?",
+        "What is Voting By Mail?",
+        "What is vote by mail?"
+    ],
+    "How do you apply for vote by mail ballot?": [
+        "How do I apply for vote by mail ballot?",
+        "How can I apply for vote by mail ballot?",
+        "How do I apply to vote by mail ballot?",
+        "How do I apply for voting by mail ballot?",
+        "How do I apply for the vote by mail ballot?",
+        "How do I apply for a mail ballot?"
+    ],
+    "What are the Application Deadlines for voting by mail?": [
+        "Tell me the application deadline for voting by mail?",
+        "Tell me the deadline for voting by mail?",
+        "list the deadlines for voting by mail?",
+        "What are the deadlines for voting by mail?",
+        "show the deadlines for voting by mail?",
+        "Tell me the deadline to apply for voting by mail?"
+    ],
+    "How to return your vote by mail ballot?": [
+        "How do I return my vote by mail ballot?",
+        "How can I return my vote by mail ballot?",
+        "How do I return my vote by mail?",
+        "How do you return your vote by mail ballot?",
+        "How can I return my vote by mail?",
+        "How do I return a mail ballot?"
+    ],
+    "How to vote in Person?": [
+        "How do I vote in person?",
+        "How can I vote in person?",
+        "How do you vote in person?",
+        "How do I vote in a person?",
+        "How can one vote in person?",
+        "How do I vote for someone in person?"
+    ],
+    "How to vote by mail in Local Elections?": [
+        "How do I vote by mail in local elections?",
+        "How can I vote by mail in local elections?",
+        "How do I vote by mail in elections?",
+        "How do I vote by mail in the local elections?",
+        "How do I vote by mail in Local Elections?",
+        "How do I vote by mail in local election?"
+    ],
+    "What are the Vote by Mail Accommodations?": [
+        "list the Vote by Mail Accommodations?",
+        "show the Vote by Mail Accommodations?",
+        "What are Vote by Mail Accommodations?",
+        "What are Vote by Mail accommodations?",
+        "Tell me the Vote by Mail Accommodations?"
+    ],
+    "Who can Register to Vote?": [
+        "Who can register to vote?",
+        "Who can register to vote and why?",
+        "How do I register to vote?",
+        "How can I register to vote?",
+        "Who can register for voting?"
+    ],
+    "What are the Voter Registration Deadlines?": [
+        "Tell me the deadline for voter registration?",
+        "What are the deadlines for voter registration?",
+        "What are Voter Registration Deadlines?",
+        "list the deadlines for voter registration?",
+        "Tell me the voter registration deadline?",
+        "show the deadlines for voter registration?"
+    ],
+    "How do New Citizens register to vote?": [
+        "How can new citizens register to vote?",
+        "How do I register to vote?",
+        "How can a new citizen register to vote?",
+        "How do new citizens register to vote?",
+        "How can I register to vote?"
+    ],
+    "How to register to vote online?": [
+        "How do I register to vote online?",
+        "How can I register to vote online?",
+        "How do I register online to vote?",
+        "How do you register to vote online?",
+        "How do I vote online?",
+        "How do I register for voting online?"
+    ],
+    "How to register to vote by mail?": [
+        "How do I register to vote by mail?",
+        "How can I register to vote by mail?",
+        "How do I register for a vote by mail?",
+        "How do I register to vote via mail?",
+        "How do you register to vote by mail?",
+        "How do I register to vote online?"
+    ],
+    "How to register to vote In-Person?": [
+        "How do I register to vote in person?",
+        "How can I register to vote in person?",
+        "How do I vote in person?",
+        "How do you register to vote in person?",
+        "How do I register for voting in person?",
+        "How can I vote in person?"
+    ],
+    "What is Automatic Voter Registration?": [
+        "What is an automatic voter registration?",
+        "What is automatic voter registration?",
+        "What is automated voter registration?",
+        "What is an automatic voter registration system?",
+        "What is an Automatic Voter Registration?"
+    ],
+    "Do I still need to register to vote?": [
+        "Is it still necessary to register to vote?",
+        "Do I still have to register to vote?",
+        "Do I have to register to vote?",
+        "Is it necessary to register to vote?",
+        "Do I need to register to vote?"
+    ],
+    "How does automatic voter registration work?": [
+        "How does the automatic voter registration process work?",
+        "How does automatic voter registration works?",
+        "What is automatic voter registration?",
+        "How do automatic voter registration work?",
+        "How does voter registration work?"
+    ],
+    "Can I opt out of registering?": [
+        "How do I opt out of registering?",
+        "How can I opt out of registering?",
+        "Can I opt out of registration?",
+        "Is it possible to opt out of registering?",
+        "How do I opt out of registration?"
+    ],
+    "If I\u2019m already registered, will I be registered to vote twice?": [
+        "Will I be registered to vote twice?",
+        "Will I be registered to vote twice if I already registered?",
+        "Is it possible to vote twice if I already registered?",
+        "Will I be allowed to vote twice if I already registered?",
+        "Will I be able to vote twice?",
+        "Can I vote twice if I already registered?"
+    ],
+    "What if I am not the one completing my health insurance application?": [
+        "What if I don't complete my health insurance application?",
+        "What if I'm not the one completing my health insurance application?",
+        "What should I do if I don't complete my health insurance application?",
+        "What happens if I am not the one completing my health insurance application?",
+        "What happens if I don't complete my health insurance application?"
+    ],
+    "What if I move?": [
+        "What should I do if I move?",
+        "What happens if you move?",
+        "What will happen if I move?",
+        "What happens to me if I move?",
+        "What happens if I move?"
+    ],
+    "What if I am not a U.S. citizen?": [
+        "What happens if I am not a U.S. citizen?",
+        "If I am not a U.S. citizen what should I do?",
+        "What if I am not a US citizen?",
+        "What if I'm not a U.S. citizen?",
+        "What should I do if I am not a U.S. citizen?"
+    ],
+    "Where Do I Find Election Results?": [
+        "Where can I find election results?",
+        "How do I find election results?",
+        "Where can I find the election results?",
+        "How can I find election results?",
+        "How do I find election results online?",
+        "Where can I find election results online?"
+    ],
+    "Where do I find Unofficial Results?": [
+        "Where can I find unofficial results?",
+        "How do I find unofficial results?",
+        "How can I find unofficial results?",
+        "Where can I find a list of unofficial results?",
+        "Where can I find Unofficial Results?",
+        "Where do I find unofficial results?"
+    ],
+    "Where do I find Official Results?": [
+        "Where can I find official results?",
+        "Where can I find the official results?",
+        "How do I find official results?",
+        "How can I find official results?",
+        "Where can I get official results?",
+        "How do I find the official results?"
+    ],
+    "What are the State Elections & Primaries polling hours?": [
+        "What are state elections & primaries polling hours?",
+        "What are state elections and primaries polling hours?",
+        "can you list the polling hours for state elections?",
+        "can you list the polling hours for the state elections?",
+        "What are the state election hours?",
+        "Tell me the polling hours for state elections?"
+    ],
+    "What are the Local Elections polling hours?": [
+        "What are local elections polling hours?",
+        "What are local election hours?",
+        "What are local elections hours?",
+        "What are the local election hours?",
+        "Tell me the local election hours?",
+        "Tell me the hours of local elections?"
+    ],
+    "What are the Early Voting polling hours?": [
+        "What are early voting hours?",
+        "What are the early voting hours?",
+        "Tell me the early voting hours?",
+        "What are early voting polling hours?",
+        "What are Early Voting Hours?",
+        "show the early voting hours?"
+    ],
+    "What are the Identification Requirements?": [
+        "What are identification requirements?",
+        "Tell me the identification requirement?",
+        "Tell me the Identification Requirement?",
+        "What are Identification Requirements?",
+        "list the Identification Requirements?",
+        "list the identification requirements?"
+    ],
+    "Who are Inactive Voters?": [
+        "Who are inactive voters and why?",
+        "Who are the inactive voters?",
+        "Who are the Inactive Voters?",
+        "Who are inactive voters?",
+        "Who are inactive voter?"
+    ],
+    "What is The Annual Street List?": [
+        "What is an annual street list?",
+        "Tell me the annual street list?",
+        "What is the annual street list?",
+        "Tell me the Annual Street List?",
+        "What is the Annual Street List?",
+        "What is annual street list?"
+    ],
+    "How do Inactive voters vote?": [
+        "Why do inactive voters vote?",
+        "How do inactive voters vote?",
+        "How does an inactive voter vote?",
+        "How do Inactive Voters vote?",
+        "How do active voters vote?"
+    ],
+    "How to be Removed from the List of Inactive Voters?": [
+        "How can I be removed from the list of inactive voters?",
+        "How do I get removed from the list of inactive voters?",
+        "How do I be removed from the list of inactive voters?",
+        "How can I be removed from a list of inactive voters?",
+        "How can I be removed from the list of Inactive Voters?",
+        "How do I get removed from a list of inactive voters?"
+    ],
+    "What are Provisional Ballots?": [
+        "Tell me the Provisional Ballot?",
+        "What is Provisional Ballot?",
+        "Tell me the provisional ballot?",
+        "What is Provisional Ballots?",
+        "What are provisional ballots?"
+    ],
+    "What are Reasons for Voting Provisionally?": [
+        "What are reasons for voting provisionally?",
+        "can you list the reasons for voting provisionally?",
+        "What are reasons to vote provisionally?",
+        "What are reasons for voting proviso?",
+        "What are reasons to vote proviso?",
+        "Tell me the reason for voting provisionally?"
+    ],
+    "How to Resolve Provisional Ballots?": [
+        "How do I resolve provisional ballots?",
+        "How do I resolve a provisional ballot?",
+        "How can I resolve provisional ballots?",
+        "How do I resolve Provisional Ballots?",
+        "How do you resolve provisional ballots?",
+        "How can I resolve Provisional Ballots?"
+    ],
+    "What is Absentee Voting?": [
+        "What is absentee voting?",
+        "Tell me the Absentee Voting?",
+        "Tell me the Absentee Voting process?",
+        "Tell me the Absentee Voting Process?",
+        "Tell me the Absentee Vote?"
+    ],
+    "Who can use Absentee Ballots?": [
+        "Who can use absentee ballots?",
+        "Who can participate in absentee ballots?",
+        "Who can vote absentee ballots?",
+        "Who can use Absentee ballots?",
+        "Who can use Absentee Ballot?"
+    ],
+    "How do you apply for Absentee Ballot?": [
+        "How do I apply for Absentee Ballot?",
+        "How do I apply for absentee ballot?",
+        "How do I apply for the Absentee Ballot?",
+        "How can I apply for Absentee Ballot?",
+        "How can I apply for absentee ballot?",
+        "How do I apply for Absentee ballot?"
+    ],
+    "What are Emergency Absentee Ballots?": [
+        "Tell me the Emergency Absentee Ballot?",
+        "What is an Emergency Absentee Ballot?",
+        "What is an emergency absentee ballot?",
+        "What are emergency absentee ballots?",
+        "Tell me the emergency absentee ballot?"
+    ],
+    "How to Return Your Absentee Ballot?": [
+        "How do I return my absentee ballot?",
+        "How do I return an absentee ballot?",
+        "How can I return my absentee ballot?",
+        "How do I get my absentee ballot back?",
+        "How do you return an absentee ballot?",
+        "How can I return an absentee ballot?"
+    ],
+    "How to Vote in Person?": [
+        "How do I vote in person?",
+        "How can I vote in person?",
+        "How do you vote in person?",
+        "How do I Vote in Person?",
+        "How can one vote in person?",
+        "How do I vote for someone in person?"
+    ],
+    "What is the Directory of Political Parties and Designations?": [
+        "What is a directory of political parties and designations?",
+        "Tell me the Directory of Political Parties and Designations?",
+        "Tell me the directory of political parties and designations?",
+        "What is directory of political parties and designations?",
+        "What is Directory of Political Parties and Designations?"
+    ],
+    "What are Parties?": [
+        "What are parties?",
+        "What is a party?",
+        "What is Parties?",
+        "What is party?",
+        "What is parties?"
+    ],
+    "What are Designations?": [
+        "Tell me the meaning of designation?",
+        "What is designation?",
+        "What are designations?"
+    ],
+    "How Accessible are Polling Places?": [
+        "How accessible are polling places?",
+        "How accessible is a polling place?",
+        "How accessible is polling place?",
+        "How accessible are the polling places?",
+        "How accessible are public polling places?",
+        "How accessible is the polling place?"
+    ],
+    "What are the Accessible Voting Procedures?": [
+        "What are accessible voting procedures?",
+        "can you list the accessible voting procedures?",
+        "list the accessible voting procedures?",
+        "show the accessible voting procedures?",
+        "Tell me the accessible voting procedure?",
+        "list the accessibility voting procedures?"
+    ],
+    "Is there Accessible Voting Equipment?": [
+        "Is there accessible voting equipment?",
+        "Is there accessible voting equipment?",
+        "Is there any accessible voting equipment?",
+        "Is there access to voting equipment?",
+        "Is there accessibility to voting equipment?",
+        "Is there any accessible voting equipment?"
+    ],
+    "What is Accessible Vote by Mail Ballot?": [
+        "What is accessible vote by mail ballot?",
+        "What is accessible vote by mail ballot?",
+        "What is accessible voting by mail ballot?",
+        "Is it possible to vote by mail ballot?",
+        "What is an accessible vote by mail ballot?",
+        "How can I vote by mail ballot?"
+    ],
+    "How to apply for your ballot?": [
+        "How do I apply for a ballot?",
+        "How can I apply for a ballot?",
+        "How do I apply for a ballot in India?",
+        "How do I apply for ballot?",
+        "How do I apply for a presidential election?",
+        "How should I apply for a ballot?"
+    ],
+    "What are the Application Deadlines?": [
+        "Tell me the application deadline?",
+        "list the application deadlines?",
+        "Tell me the deadline for application?",
+        "Tell me the deadline for applications?",
+        "list the deadlines for applications?",
+        "What are the deadlines for applications?"
+    ],
+    "How to Vote by Accessible Vote by Mail Ballot?": [
+        "How do I vote by accessible vote by mail ballot?",
+        "How can I vote by accessible vote by mail ballot?",
+        "How do I vote by accessible vote by mail ballot?",
+        "How do I vote by accessible ballot by mail ballot?",
+        "How can I vote by accessible vote by mail ballot?",
+        "How can I vote by accessible ballot by mail ballot?"
+    ],
+    "How to Return Your Accessible Vote by Mail Ballot Electronically?": [
+        "How do I return my accessible vote by mail ballot electronically?",
+        "How can I return my accessible vote by mail ballot electronically?",
+        "How do I return my accessible vote by mail ballot electronically?",
+        "How do I return my accessible vote by mail Ballot electronically?",
+        "How do I return my accessible vote by mail ballot electronically?",
+        "How do I return my Accessible Vote by Mail Ballot?"
+    ],
+    "How to Return Your Ballot by Mail or in Person?": [
+        "How do I return my ballot by mail or in person?",
+        "How do I return a ballot by mail or in person?",
+        "How do I return my Ballot by mail or in person?",
+        "How can I return my ballot by mail or in person?",
+        "How can I return a ballot by mail or in person?",
+        "How can I return my Ballot by mail or in person?"
+    ],
+    "When is the state election?": [
+        "When will the state elections be held?",
+        "When will the state election be held?",
+        "When will the state election take place?",
+        "When will be the state election?",
+        "When is the next state election?"
+    ],
+    "What is the district of the election?": [
+        "Which is the district of the election?",
+        "Tell me the district of the election?",
+        "What is district of election?",
+        "What is district of the election?",
+        "What is a district of the election?"
+    ],
+    "What offices are on the Ballot?": [
+        "Which offices are on the ballot?",
+        "What office is on the ballot?",
+        "What offices are on the ballot?",
+        "What office are on the ballot?",
+        "What offices are listed on the ballot?"
+    ],
+    "When is the Voter Registration Deadline?": [
+        "When is the election registration deadline?",
+        "When is the voting deadline?",
+        "When is the voter registration deadline?",
+        "When is Voter Registration Deadline?",
+        "When is the deadline for voter registration?"
+    ],
+    "When is the Vote by Mail Application Deadline?": [
+        "When is the Vote by Mail application deadline?",
+        "When is Vote by Mail Application Deadline?",
+        "When is the vote by mail application deadline?",
+        "When is Vote by Mail application deadline?",
+        "When is the deadline for voting by mail application?",
+        "When is the deadline for voting by mail?"
+    ],
+    "What are the Polling hours?": [
+        "What are polling hours?",
+        "What are the polling hours?",
+        "Tell me the polling hours?",
+        "show the polling hours?",
+        "can you list the polling hours?",
+        "list the polling hours?"
+    ],
+    "Can Military and Overseas Voters vote?": [
+        "Can military and overseas voters vote?",
+        "Can Military and Overseas voters vote?",
+        "Can military and overseas voters vote?",
+        "How can military and overseas voters vote?",
+        "Can military and overseas citizens vote?",
+        "Can overseas and military voters vote?"
+    ],
+    "Can Military Voters vote?": [
+        "Why can't military voters vote?",
+        "How can military voters vote?",
+        "Can Military Voters Vote?",
+        "How do military voters vote?",
+        "Can military voters vote?"
+    ],
+    "Can Overseas Citizens vote?": [
+        "Can overseas citizens vote?",
+        "Can overseas citizens vote in India?",
+        "Can oversea citizens vote?",
+        "Can overseas citizens vote or not?",
+        "Can overseas citizens vote?",
+        "Can overseas citizens still vote?"
+    ],
+    "How to apply for your Ballot?": [
+        "How do I apply for a Ballot?",
+        "How do I apply for the Ballot?",
+        "How do I apply for Ballot?",
+        "How can I apply for a Ballot?",
+        "How can I apply for the Ballot?",
+        "How can I apply for Ballot?"
+    ],
+    "How do you vote?": [
+        "How can I vote?",
+        "How can I vote for someone?",
+        "How do I vote?",
+        "What should I do to vote?",
+        "How do I vote for someone?"
+    ],
+    "How to Return Your Ballot?": [
+        "How do I return my ballot?",
+        "How do I return my Ballot?",
+        "How do I return a Ballot?",
+        "How do I return a ballot?",
+        "How can I return my ballot?",
+        "How can I return my Ballot?"
+    ],
+    "What is a Federal Write-in Absentee Ballot?": [
+        "What is a federal write-in absentee ballot?",
+        "Tell me the Federal Write-in Absentee Ballot?",
+        "What is federal write-in absentee ballot?",
+        "What is Federal Write-in Absentee Ballot?",
+        "What is a Federal Write-In Absentee Ballot?"
+    ],
+    "How to Vote in a Primary?": [
+        "How do I vote in a primary election?",
+        "How do I vote in primary elections?",
+        "How do I vote in primary election?",
+        "How can I vote in a primary election?",
+        "How do I vote in a Primary Election?",
+        "How do I vote in a primary?"
+    ],
+    "What are the Political Parties?": [
+        "What are political parties?",
+        "What is a political party?",
+        "list the political parties?",
+        "show the political parties?",
+        "can you list the political parties?",
+        "What political parties are there?"
+    ],
+    "What is Party Enrollment?": [
+        "What is party enrollment? What is party enrollment?",
+        "What is a Party Enrollment?",
+        "What is party enrollment?",
+        "What is a party enrollment?",
+        "What is party enrolment?"
+    ],
+    "How to Choose a Ballot?": [
+        "How do I choose a Ballot?",
+        "How do you choose a Ballot?",
+        "How do I choose a ballot?",
+        "How do I pick a Ballot?",
+        "How do I choose my Ballot?",
+        "How do I select a Ballot?"
+    ],
+    "When are primaries held?": [
+        "When are the primaries held?",
+        "When is the primaries held?",
+        "When do primaries take place?",
+        "When do primaries start?",
+        "When will the primaries be held?"
+    ],
+    "Why isn\u2019t there an \u201cIndependent\u201d option on my Vote by Mail application?": [
+        "Why isn't there an independent option in the Vote by Mail application?",
+        "Why isn't there an \u201cIndependent\u201d option in Vote by Mail?",
+        "Why isn't there an independent option on the Vote by Mail application?",
+        "Why isn't there an independent option in Vote by Mail?",
+        "Why isn't there an \u201cIndependent\u201d option on Vote by Mail?",
+        "Why isn't there an independent option on Vote by Mail?"
+    ],
+    "Why can\u2019t I vote for candidates in both parties?": [
+        "Why can\u2019t I vote for candidates from both parties?",
+        "Why can\u2019t I vote for both parties?",
+        "Why can't I vote for candidates from both parties?",
+        "Why can't I vote for candidates in both parties?",
+        "Why can't I vote for both parties?"
+    ],
+    "Can I write-in a candidate from a different party on my ballot?": [
+        "Can I write a candidate from another party on my ballot?",
+        "Can I write a candidate from a different party on my ballot?",
+        "Can I write in a candidate from a different party on my ballot?",
+        "Can you write-in a candidate from a different party on your ballot?",
+        "Can I write-in a candidate from another party on my ballot?"
+    ],
+    "Why are Democratic ballots red and Republican ballots blue?": [
+        "Why are Democratic and Republican ballots red and blue?",
+        "Why are Republican and Democratic ballots red and blue?",
+        "Why are Democratic and Republican ballots red?",
+        "Why are Republican and Democratic ballots red?",
+        "Why are Democratic votes red and Republican votes blue?",
+        "Why are Democratic and Republican ballots blue?"
+    ],
+    "How to Vote Early?": [
+        "How do I vote early?",
+        "How can I vote early?",
+        "Tell me the best way to vote early?",
+        "How do you vote early?",
+        "How do I vote early in elections?",
+        "How should I vote early?"
+    ],
+    "What are Eligible Elections for early voting?": [
+        "can you list the eligibility criteria for early voting?",
+        "What are eligible elections for early voting?",
+        "Tell me the eligibility criteria for early voting?",
+        "What is an eligible election for early voting?",
+        "Tell me the eligibility for early voting?"
+    ],
+    "What are the Early Voting Periods?": [
+        "What are Early Voting Periods?",
+        "Tell me the Early Voting Period?",
+        "What are early voting periods?",
+        "show the Early Voting Periods?",
+        "Tell me the early voting period?",
+        "list the Early Voting Periods?"
+    ],
+    "What are the Schedules & Locations for early voting?": [
+        "show the schedules and locations for early voting?",
+        "list the schedules and locations for early voting?",
+        "show the schedules & locations for early voting?",
+        "list the schedules & locations for early voting?",
+        "What are the schedules and locations for early voting?",
+        "can you list the schedules and locations for early voting?"
+    ],
+    "Where can I find information about candidates and ballot measures for the upcoming election?": [
+        "How can I find information about candidates and ballot measures for the upcoming election?",
+        "Where can I find information about candidates and ballot measures for the upcoming elections?",
+        "Where can I find information about candidates and ballot measures in the upcoming election?",
+        "Where can I find information on candidates and ballot measures for the upcoming election?",
+        "How do I find information about candidates and ballot measures for the upcoming election?"
+    ],
+    "Who gets Time Off To Vote?": [
+        "Who gets time off to vote?",
+        "Who gets time off from voting?",
+        "Who gets time off to vote and why?",
+        "Who get time off to vote?",
+        "Who gets time off for voting?",
+        "Who has time off to vote?"
+    ],
+    "Where are the Drop Boxes?": [
+        "Where are drop boxes located?",
+        "Where are the drop boxes located?",
+        "Where are the drop boxes?",
+        "Where are drop boxes?",
+        "Where are the drop box?",
+        "Where is the drop box?"
+    ],
+    "What is the Registration Deadline?": [
+        "Tell me the registration deadline?",
+        "What is registration deadline?",
+        "Tell me the deadline for registration?",
+        "Tell me the Registration Deadline?",
+        "Tell me the Deadline for Registration?",
+        "What is Registration Deadline?"
+    ],
+    "What are the Voter registration deadlines?": [
+        "Tell me the deadline for voter registration?",
+        "What are the deadlines for voter registration?",
+        "What are the voter registration deadlines?",
+        "list the deadlines for voter registration?",
+        "show the deadlines for voter registration?",
+        "Tell me the voter registration deadline?"
+    ],
+    "How do I Verify voter registration status?": [
+        "How do I verify voter registration status?",
+        "How can I verify voter registration status?",
+        "How can I verify my voter registration status?",
+        "How do I verify my voter registration status?",
+        "How do I check voter registration status?",
+        "How can I check voter registration status?"
+    ],
+    "What is Automatic voter registration?": [
+        "What is an automatic voter registration?",
+        "What is automatic voter registration?",
+        "Tell me the automatic voter registration?",
+        "What is automatic voter registration? What is it?"
+    ],
+    "What is the Absentee Ballot Process?": [
+        "Tell me the Absentee Ballot process?",
+        "What is Absentee Ballot?",
+        "Tell me the Absentee Ballot Process?",
+        "What is Absentee Ballot Process?",
+        "What is an Absentee Ballot Process?"
+    ],
+    "How to register for Permanent Vote-by-Mail?": [
+        "How do I register for a permanent vote by e-mail?",
+        "How do I register for Permanent Vote-by-Mail?",
+        "How do I register for permanent vote by e-mail?",
+        "How do I register for a permanent vote-by-email?",
+        "How do I register for Vote-by-Mail?",
+        "How do I register for permanent vote-by-email?"
+    ],
+    "How to return your Ballot?": [
+        "How do I return my Ballot?",
+        "How do I return my ballot?",
+        "How do I return a Ballot?",
+        "How can I return my Ballot?",
+        "How do I get my Ballot back?",
+        "How do I return a ballot?"
+    ],
+    "How do absentee ballots work?": [
+        "How does absentee ballots work?",
+        "How does a absentee ballot work?",
+        "How does the absentee ballot work?",
+        "How does absentee ballot work?",
+        "How does an absentee ballot work?"
+    ],
+    "What is Provisional Voting?": [
+        "Tell me the concept of provisional voting?",
+        "Tell me the provisional voting system?",
+        "Tell me the provisional voting process?",
+        "What is provisional voting?",
+        "Tell me the Provisional Voting?"
+    ],
+    "What are the Eligibility Requirements?": [
+        "What are eligibility requirements?",
+        "Tell me the eligibility criteria?",
+        "list the eligibility requirements?",
+        "can you list the eligibility requirements?",
+        "What are eligibility criteria?",
+        "list the eligibility criteria?"
+    ],
+    "How can I find information on becoming a poll worker?": [
+        "How do I become a poll worker?",
+        "How can I become a poll worker?",
+        "How do you become a poll worker?",
+        "Tell me the best way to become a poll worker?",
+        "How can you become a poll worker?",
+        "How does one become a poll worker?"
+    ],
+    "What ID is Needed for Voting?": [
+        "What ID is required for voting?",
+        "What ID is required to vote?",
+        "What ID is needed for voting?",
+        "What ID is required for Voting?",
+        "What ID is needed to vote?",
+        "What ID do I need to vote?"
+    ],
+    "When is Early Voting?": [
+        "When is early voting legal?",
+        "When is early voting?",
+        "Why is early voting so important?",
+        "When is Early Voting legal?",
+        "When does early voting start?"
+    ],
+    "Where is the Polling Place Locator?": [
+        "Where is the Polling Place Locator located?",
+        "Where can I find the Polling Place Locator?",
+        "Where can I find the polling place locator?",
+        "Where is the polling place Locator?",
+        "Where is the polling place locator?"
+    ],
+    "What is the Primary Election Process?": [
+        "Tell me the primary election process?",
+        "What is Primary Election Process?",
+        "What is primary election process?",
+        "Tell me the Primary Election Process?",
+        "What is a Primary Election Process?",
+        "What is the primary election process?"
+    ],
+    "Overseas and Military Voters": [
+        "Overseas and Military Voters: Overseas and Military Voters",
+        "Overseas and Military Voters: Overseas and Military Voters:",
+        "Overseas and Military Voters - Overseas and Military Voters",
+        "Overseas and Military Voters. Overseas and Military Voters.",
+        "Overseas and Military Voters. Overseas and Military Voters",
+        "Overseas and Military Voters: Overseas and Military Voters."
+    ],
+    "Campaign Finance Information": [
+        "Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information",
+        "Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information",
+        "Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance",
+        "Campaign finance information campaign finance information campaign finance information campaign finance information campaign finance information campaign finance information",
+        "Campaign finance information campaign finance information campaign finance information campaign finance information campaign finance information campaign finance",
+        "Campaign Finance Information Campaign Finance Information Campaign Finance Information Campaign Finance Information"
+    ],
+    "What are Provisions for Voters with Disabilities?": [
+        "What are provisions for Voters with Disabilities?",
+        "What are provisions for voters with disabilities?",
+        "What are Voters with Disabilities?",
+        "What are Voters with Disabilities Provisions?",
+        "What are Voters with Disabilities provisions?",
+        "What is a provision for voters with disabilities?"
+    ],
+    "What ID is Needed for Voter Registration?": [
+        "What ID is required for voter registration?",
+        "What ID is needed for voter registration?",
+        "What ID is required to register a voter?",
+        "What ID do I need to register as a voter?",
+        "Tell me the minimum ID required for voter registration?",
+        "Tell me the ID required for voter registration?"
+    ],
+    "What are the Polling Place Hours?": [
+        "What are polling place hours?",
+        "Tell me the polling place hours?",
+        "What are the polling place hours?",
+        "list the polling place hours?",
+        "show the polling place hours?",
+        "What are polling places hours?"
+    ],
+    "When are the Official Results available?": [
+        "When will the official results be available?",
+        "When are the official results available?",
+        "When is the official results available?",
+        "When will the official results be released?",
+        "When are official results available?"
+    ]
+}

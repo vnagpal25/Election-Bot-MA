@@ -1,0 +1,605 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: action_save_conversation
+  - action: action_session_id
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - action: action_save_conversation
+  - action: action_session_id
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  - action: action_save_conversation
+  - action: action_session_id
+
+
+- story: voting_mail path
+  steps:
+  - intent: voting_mail
+  - action: utter_summary_voting_mail
+  - intent: full_answer
+  - action: utter_voting_mail
+    
+- story: application_deadline_voting_mail path
+  steps:
+  - intent: application_deadline_voting_mail
+  - action: utter_summary_application_deadline_voting_mail
+  - intent: full_answer
+  - action: utter_application_deadline_voting_mail
+    
+- story: vote_mail_local_election path
+  steps:
+  - intent: vote_mail_local_election
+  - action: utter_summary_vote_mail_local_election
+  - intent: full_answer
+  - action: utter_vote_mail_local_election
+    
+- story: vote_mail_accommodation path
+  steps:
+  - intent: vote_mail_accommodation
+  - action: utter_summary_vote_mail_accommodation
+  - intent: full_answer
+  - action: utter_vote_mail_accommodation
+    
+- story: new_citizen_register_vote path
+  steps:
+  - intent: new_citizen_register_vote
+  - action: utter_summary_new_citizen_register_vote
+  - intent: full_answer
+  - action: utter_new_citizen_register_vote
+    
+- story: register_vote_online path
+  steps:
+  - intent: register_vote_online
+  - action: utter_summary_register_vote_online
+  - intent: full_answer
+  - action: utter_register_vote_online
+    
+- story: register_vote_mail path
+  steps:
+  - intent: register_vote_mail
+  - action: utter_summary_register_vote_mail
+  - intent: full_answer
+  - action: utter_register_vote_mail
+    
+- story: automatic_voter_registration path
+  steps:
+  - intent: automatic_voter_registration
+  - action: utter_summary_automatic_voter_registration
+  - intent: full_answer
+  - action: utter_automatic_voter_registration
+    
+- story: still_need_register_vote path
+  steps:
+  - intent: still_need_register_vote
+  - action: utter_summary_still_need_register_vote
+  - intent: full_answer
+  - action: utter_still_need_register_vote
+    
+- story: automatic_voter_registration_work path
+  steps:
+  - intent: automatic_voter_registration_work
+  - action: utter_summary_automatic_voter_registration_work
+  - intent: full_answer
+  - action: utter_automatic_voter_registration_work
+    
+- story: opt_registering path
+  steps:
+  - intent: opt_registering
+  - action: utter_summary_opt_registering
+  - intent: full_answer
+  - action: utter_opt_registering
+    
+- story: i’m_already_registered_registered path
+  steps:
+  - intent: i’m_already_registered_registered
+  - action: utter_summary_i’m_already_registered_registered
+  - intent: full_answer
+  - action: utter_i’m_already_registered_registered
+    
+- story: one_completing_health_insurance path
+  steps:
+  - intent: one_completing_health_insurance
+  - action: utter_summary_one_completing_health_insurance
+  - intent: full_answer
+  - action: utter_one_completing_health_insurance
+    
+- story: What_if_I_move path
+  steps:
+  - intent: What_if_I_move
+  - action: utter_summary_What_if_I_move
+  - intent: full_answer
+  - action: utter_What_if_I_move
+    
+- story: u_citizen path
+  steps:
+  - intent: u_citizen
+  - action: utter_summary_u_citizen
+  - intent: full_answer
+  - action: utter_u_citizen
+    
+- story: find_election_result path
+  steps:
+  - intent: find_election_result
+  - action: utter_summary_find_election_result
+  - intent: full_answer
+  - action: utter_find_election_result
+    
+- story: find_unofficial_result path
+  steps:
+  - intent: find_unofficial_result
+  - action: utter_summary_find_unofficial_result
+  - intent: full_answer
+  - action: utter_find_unofficial_result
+    
+- story: find_official_result path
+  steps:
+  - intent: find_official_result
+  - action: utter_summary_find_official_result
+  - intent: full_answer
+  - action: utter_find_official_result
+    
+- story: local_election_polling_hour path
+  steps:
+  - intent: local_election_polling_hour
+  - action: utter_summary_local_election_polling_hour
+  - intent: full_answer
+  - action: utter_local_election_polling_hour
+    
+- story: early_voting_polling_hour path
+  steps:
+  - intent: early_voting_polling_hour
+  - action: utter_summary_early_voting_polling_hour
+  - intent: full_answer
+  - action: utter_early_voting_polling_hour
+    
+- story: identification_requirement path
+  steps:
+  - intent: identification_requirement
+  - action: utter_summary_identification_requirement
+  - intent: full_answer
+  - action: utter_identification_requirement
+    
+- story: inactive_voter path
+  steps:
+  - intent: inactive_voter
+  - action: utter_summary_inactive_voter
+  - intent: full_answer
+  - action: utter_inactive_voter
+    
+- story: annual_street_list path
+  steps:
+  - intent: annual_street_list
+  - action: utter_summary_annual_street_list
+  - intent: full_answer
+  - action: utter_annual_street_list
+    
+- story: inactive_voter_vote path
+  steps:
+  - intent: inactive_voter_vote
+  - action: utter_summary_inactive_voter_vote
+  - intent: full_answer
+  - action: utter_inactive_voter_vote
+    
+- story: removed_list_inactive_voter path
+  steps:
+  - intent: removed_list_inactive_voter
+  - action: utter_summary_removed_list_inactive_voter
+  - intent: full_answer
+  - action: utter_removed_list_inactive_voter
+    
+- story: provisional_ballot path
+  steps:
+  - intent: provisional_ballot
+  - action: utter_summary_provisional_ballot
+  - intent: full_answer
+  - action: utter_provisional_ballot
+    
+- story: resolve_provisional_ballot path
+  steps:
+  - intent: resolve_provisional_ballot
+  - action: utter_summary_resolve_provisional_ballot
+  - intent: full_answer
+  - action: utter_resolve_provisional_ballot
+    
+- story: absentee_voting path
+  steps:
+  - intent: absentee_voting
+  - action: utter_summary_absentee_voting
+  - intent: full_answer
+  - action: utter_absentee_voting
+    
+- story: use_absentee_ballot path
+  steps:
+  - intent: use_absentee_ballot
+  - action: utter_summary_use_absentee_ballot
+  - intent: full_answer
+  - action: utter_use_absentee_ballot
+    
+- story: apply_absentee_ballot path
+  steps:
+  - intent: apply_absentee_ballot
+  - action: utter_summary_apply_absentee_ballot
+  - intent: full_answer
+  - action: utter_apply_absentee_ballot
+    
+- story: emergency_absentee_ballot path
+  steps:
+  - intent: emergency_absentee_ballot
+  - action: utter_summary_emergency_absentee_ballot
+  - intent: full_answer
+  - action: utter_emergency_absentee_ballot
+    
+- story: return_absentee_ballot path
+  steps:
+  - intent: return_absentee_ballot
+  - action: utter_summary_return_absentee_ballot
+  - intent: full_answer
+  - action: utter_return_absentee_ballot
+    
+- story: vote_person1 path
+  steps:
+  - intent: vote_person1
+  - action: utter_summary_vote_person1
+  - intent: full_answer
+  - action: utter_vote_person1
+    
+- story: directory_political_party_designation path
+  steps:
+  - intent: directory_political_party_designation
+  - action: utter_summary_directory_political_party_designation
+  - intent: full_answer
+  - action: utter_directory_political_party_designation
+    
+- story: What_are_Parties path
+  steps:
+  - intent: What_are_Parties
+  - action: utter_summary_What_are_Parties
+  - intent: full_answer
+  - action: utter_What_are_Parties
+    
+- story: What_are_Designations path
+  steps:
+  - intent: What_are_Designations
+  - action: utter_summary_What_are_Designations
+  - intent: full_answer
+  - action: utter_What_are_Designations
+    
+- story: accessible_voting_equipment path
+  steps:
+  - intent: accessible_voting_equipment
+  - action: utter_summary_accessible_voting_equipment
+  - intent: full_answer
+  - action: utter_accessible_voting_equipment
+    
+- story: accessible_vote_mail_ballot path
+  steps:
+  - intent: accessible_vote_mail_ballot
+  - action: utter_summary_accessible_vote_mail_ballot
+  - intent: full_answer
+  - action: utter_accessible_vote_mail_ballot
+    
+- story: application_deadline path
+  steps:
+  - intent: application_deadline
+  - action: utter_summary_application_deadline
+  - intent: full_answer
+  - action: utter_application_deadline
+    
+- story: vote_accessible_vote_mail path
+  steps:
+  - intent: vote_accessible_vote_mail
+  - action: utter_summary_vote_accessible_vote_mail
+  - intent: full_answer
+  - action: utter_vote_accessible_vote_mail
+    
+- story: return_accessible_vote_mail path
+  steps:
+  - intent: return_accessible_vote_mail
+  - action: utter_summary_return_accessible_vote_mail
+  - intent: full_answer
+  - action: utter_return_accessible_vote_mail
+    
+- story: return_ballot_mail_person path
+  steps:
+  - intent: return_ballot_mail_person
+  - action: utter_summary_return_ballot_mail_person
+  - intent: full_answer
+  - action: utter_return_ballot_mail_person
+    
+- story: military_overseas_voter_vote path
+  steps:
+  - intent: military_overseas_voter_vote
+  - action: utter_summary_military_overseas_voter_vote
+  - intent: full_answer
+  - action: utter_military_overseas_voter_vote
+    
+- story: military_voter_vote path
+  steps:
+  - intent: military_voter_vote
+  - action: utter_summary_military_voter_vote
+  - intent: full_answer
+  - action: utter_military_voter_vote
+    
+- story: overseas_citizen_vote path
+  steps:
+  - intent: overseas_citizen_vote
+  - action: utter_summary_overseas_citizen_vote
+  - intent: full_answer
+  - action: utter_overseas_citizen_vote
+    
+- story: apply_ballot1 path
+  steps:
+  - intent: apply_ballot1
+  - action: utter_summary_apply_ballot1
+  - intent: full_answer
+  - action: utter_apply_ballot1
+    
+- story: return_ballot path
+  steps:
+  - intent: return_ballot
+  - action: utter_summary_return_ballot
+  - intent: full_answer
+  - action: utter_return_ballot
+    
+- story: federal_writein_absentee_ballot path
+  steps:
+  - intent: federal_writein_absentee_ballot
+  - action: utter_summary_federal_writein_absentee_ballot
+  - intent: full_answer
+  - action: utter_federal_writein_absentee_ballot
+    
+- story: vote_primary path
+  steps:
+  - intent: vote_primary
+  - action: utter_summary_vote_primary
+  - intent: full_answer
+  - action: utter_vote_primary
+    
+- story: political_party path
+  steps:
+  - intent: political_party
+  - action: utter_summary_political_party
+  - intent: full_answer
+  - action: utter_political_party
+    
+- story: party_enrollment path
+  steps:
+  - intent: party_enrollment
+  - action: utter_summary_party_enrollment
+  - intent: full_answer
+  - action: utter_party_enrollment
+    
+- story: choose_ballot path
+  steps:
+  - intent: choose_ballot
+  - action: utter_summary_choose_ballot
+  - intent: full_answer
+  - action: utter_choose_ballot
+    
+- story: primary_held path
+  steps:
+  - intent: primary_held
+  - action: utter_summary_primary_held
+  - intent: full_answer
+  - action: utter_primary_held
+    
+- story: isn’t_“independent”_option_vote path
+  steps:
+  - intent: isn’t_“independent”_option_vote
+  - action: utter_summary_isn’t_“independent”_option_vote
+  - intent: full_answer
+  - action: utter_isn’t_“independent”_option_vote
+    
+- story: can’t_vote_candidate_party path
+  steps:
+  - intent: can’t_vote_candidate_party
+  - action: utter_summary_can’t_vote_candidate_party
+  - intent: full_answer
+  - action: utter_can’t_vote_candidate_party
+    
+- story: writein_candidate_different_party path
+  steps:
+  - intent: writein_candidate_different_party
+  - action: utter_summary_writein_candidate_different_party
+  - intent: full_answer
+  - action: utter_writein_candidate_different_party
+    
+- story: democratic_ballot_red_republican path
+  steps:
+  - intent: democratic_ballot_red_republican
+  - action: utter_summary_democratic_ballot_red_republican
+  - intent: full_answer
+  - action: utter_democratic_ballot_red_republican
+    
+- story: vote_early path
+  steps:
+  - intent: vote_early
+  - action: utter_summary_vote_early
+  - intent: full_answer
+  - action: utter_vote_early
+    
+- story: eligible_election_early_voting path
+  steps:
+  - intent: eligible_election_early_voting
+  - action: utter_summary_eligible_election_early_voting
+  - intent: full_answer
+  - action: utter_eligible_election_early_voting
+    
+- story: early_voting_period path
+  steps:
+  - intent: early_voting_period
+  - action: utter_summary_early_voting_period
+  - intent: full_answer
+  - action: utter_early_voting_period
+    
+- story: schedule_location_early_voting path
+  steps:
+  - intent: schedule_location_early_voting
+  - action: utter_summary_schedule_location_early_voting
+  - intent: full_answer
+  - action: utter_schedule_location_early_voting
+    
+- story: get_time_vote path
+  steps:
+  - intent: get_time_vote
+  - action: utter_summary_get_time_vote
+  - intent: full_answer
+  - action: utter_get_time_vote
+    
+- story: drop_box path
+  steps:
+  - intent: drop_box
+  - action: utter_summary_drop_box
+  - intent: full_answer
+  - action: utter_drop_box
+    
+- story: voter_registration_deadline2 path
+  steps:
+  - intent: voter_registration_deadline2
+  - action: utter_summary_voter_registration_deadline2
+  - intent: full_answer
+  - action: utter_voter_registration_deadline2
+    
+- story: automatic_voter_registration1 path
+  steps:
+  - intent: automatic_voter_registration1
+  - action: utter_summary_automatic_voter_registration1
+  - intent: full_answer
+  - action: utter_automatic_voter_registration1
+    
+- story: new_citizen_register_vote1 path
+  steps:
+  - intent: new_citizen_register_vote1
+  - action: utter_summary_new_citizen_register_vote1
+  - intent: full_answer
+  - action: utter_new_citizen_register_vote1
+    
+- story: absentee_ballot_process path
+  steps:
+  - intent: absentee_ballot_process
+  - action: utter_summary_absentee_ballot_process
+  - intent: full_answer
+  - action: utter_absentee_ballot_process
+    
+- story: register_permanent_votebymail path
+  steps:
+  - intent: register_permanent_votebymail
+  - action: utter_summary_register_permanent_votebymail
+  - intent: full_answer
+  - action: utter_register_permanent_votebymail
+    
+- story: return_ballot1 path
+  steps:
+  - intent: return_ballot1
+  - action: utter_summary_return_ballot1
+  - intent: full_answer
+  - action: utter_return_ballot1
+    
+- story: absentee_ballot_work path
+  steps:
+  - intent: absentee_ballot_work
+  - action: utter_summary_absentee_ballot_work
+  - intent: full_answer
+  - action: utter_absentee_ballot_work
+    
+- story: emergency_absentee_ballot1 path
+  steps:
+  - intent: emergency_absentee_ballot1
+  - action: utter_summary_emergency_absentee_ballot1
+  - intent: full_answer
+  - action: utter_emergency_absentee_ballot1
+    
+- story: provisional_voting path
+  steps:
+  - intent: provisional_voting
+  - action: utter_summary_provisional_voting
+  - intent: full_answer
+  - action: utter_provisional_voting
+    
+- story: eligibility_requirement path
+  steps:
+  - intent: eligibility_requirement
+  - action: utter_summary_eligibility_requirement
+  - intent: full_answer
+  - action: utter_eligibility_requirement
+    
+- story: find_information_becoming_poll path
+  steps:
+  - intent: find_information_becoming_poll
+  - action: utter_summary_find_information_becoming_poll
+  - intent: full_answer
+  - action: utter_find_information_becoming_poll
+    
+- story: early_voting path
+  steps:
+  - intent: early_voting
+  - action: utter_summary_early_voting
+  - intent: full_answer
+  - action: utter_early_voting
+    
+- story: primary_election_process path
+  steps:
+  - intent: primary_election_process
+  - action: utter_summary_primary_election_process
+  - intent: full_answer
+  - action: utter_primary_election_process
+    
+- story: overseas_military_voter path
+  steps:
+  - intent: overseas_military_voter
+  - action: utter_summary_overseas_military_voter
+  - intent: full_answer
+  - action: utter_overseas_military_voter
+    
+- story: campaign_finance_information path
+  steps:
+  - intent: campaign_finance_information
+  - action: utter_summary_campaign_finance_information
+  - intent: full_answer
+  - action: utter_campaign_finance_information
+    
+- story: provision_voter_disability path
+  steps:
+  - intent: provision_voter_disability
+  - action: utter_summary_provision_voter_disability
+  - intent: full_answer
+  - action: utter_provision_voter_disability
+    
+- story: id_needed_voter_registration path
+  steps:
+  - intent: id_needed_voter_registration
+  - action: utter_summary_id_needed_voter_registration
+  - intent: full_answer
+  - action: utter_id_needed_voter_registration
+    
+- story: official_result_available path
+  steps:
+  - intent: official_result_available
+  - action: utter_summary_official_result_available
+  - intent: full_answer
+  - action: utter_official_result_available
+    
